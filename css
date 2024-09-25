@@ -1,0 +1,58 @@
+* {
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      background-color: white;
+      font-size: 14px;
+      color: #FFFFFF;
+      background-image: url(../image/mountains-dusk.jpg);
+}
+  
+  .limit {
+      max-width: 1240px;
+      margin: 0 auto;
+  }
+  
+  .d-flex {
+      display: flex;
+  }
+  .header-logo {
+      flex: 2;
+  }
+  .header-nav {
+      flex: 4;
+  }
+
+  .header-container {
+      padding: 20px 34px;
+  }
+  a {
+      color: white;
+      text-decoration: none;
+  }
+  a:hover {
+      color: pink;
+      text-decoration: underline;
+  }
+  header .header-nav ul {
+      list-style-type: none;
+      height: 100%;
+  }
+  .flex-center {
+      justify-content: center;
+      align-items: center;
+      gap: 26px;
+  }
+  
+  
+  @media (max-width: 767px) {
+      header .header-nav ul {
+          display: none;
+      }
+  }
+  
+  @media (max-width: 1024px) and (min-width: 768px) {
+      
+  }
